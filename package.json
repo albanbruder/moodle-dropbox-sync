@@ -1,7 +1,7 @@
 {
   "name": "moodle-dropbox-sync",
   "version": "1.0.0",
-  "description": "Syncs resources for moodle installations, that dont't have an enabled API.",
+  "description": "Syncs resources moodle installations, that dont't have an enabled API.",
   "main": "./build/main.js",
   "scripts": {
     "build": "backpack build",
