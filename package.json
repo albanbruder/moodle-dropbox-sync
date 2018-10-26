@@ -1,0 +1,47 @@
+{
+  "name": "moodle-dropbox-sync",
+  "version": "1.0.0",
+  "description": "Syncs resources for moodle installations, that dont't have an enabled API.",
+  "main": "./build/main.js",
+  "scripts": {
+    "build": "backpack build",
+    "start": "node build/main.js",
+    "dev": "backpack",
+    "lint": "eslint"
+  },
+  "author": "Alban Bruder <mail@albanbruder.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/albanbruder/moodle-dropbox-sync#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albanbruder/moodle-dropbox-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albanbruder/moodle-dropbox-sync/issues"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "dependencies": {
+    "backpack-core": "^0.7.0",
+    "bluebird": "^3.5.2",
+    "cwait": "^1.1.1",
+    "dotenv": "^6.1.0",
+    "dropbox": "^4.0.12",
+    "jsdom": "^12.2.0",
+    "node-fetch": "^2.2.0",
+    "node-moodle-scraper": "^1.0.1",
+    "readline-sync": "^1.4.9"
+  },
+  "keywords": [
+    "moodle",
+    "drobox",
+    "sync",
+    "synchronisation"
+  ]
+}
